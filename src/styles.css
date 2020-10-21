@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~fullpage.js/dist/fullpage.min.css';
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
