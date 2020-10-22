@@ -24,14 +24,14 @@ export class ProjectsComponent implements OnInit {
   {
       "name": "Perosnl Site",
       "discription": "VIOLA c'est la site que tu voir maintenant ici sur cette website! c'est oncroyable non?",
-      "image": "",
-      "urlLink": ""
+      "image": "../../../assests/images/PS.jpg",
+      "urlLink": 'https://www.facebook.com'
   },
   {
       "name": "iDIM",
       "discription": "kek cette application est la bain du mon existance a ce moment !",
       "image": "",
-      "urlLink": ""
+      "urlLink": 'https://www.facebook.com'
   },
   {
       "name": "Fresh-Eats",
@@ -43,7 +43,7 @@ export class ProjectsComponent implements OnInit {
       "name": "Pokedex Project",
       "discription": "",
       "image": "",
-      "urlLink": ""
+      "urlLink": 'https://www.facebook.com'
   },
   {
     "name": "Project 6",

@@ -1,29 +1,29 @@
-.flex-container {
+.row {
     display: flex;
     flex-direction: row;
-    font-family: 'Montserrat';font-size: 22px;
+    justify-content: center;
 }
 
-.propic {
-    flex: 1;
-    justify-content: left;
-    margin-left: 50px;
+.column {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.content {
+    height: 100%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 15%;
+}
+
+.profilePicture {
     border-radius: 50%;
-}
-
-.propic img {
-    border-radius: 50%;
-    width: 400px;
-}
-
-.profile-content {
-    flex: 1;
-    justify-content: right;
-    margin-right: 0px;
+    padding: 15%;
 }
 
 .header-text {
     text-align: center;
     color: 000;
-    font-family: 'Montserrat';font-size: 22px;
+    font-family: 'Montserrat';
+    font-size: 22px;
   }

@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: blue;
+}
+
+.column {
+    flex-basis: 50%;
+    align-items: center;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.item {
+    height: 100%;
+    padding: 15%;
+    border-style: solid;
+    border-color: pink;
+}
