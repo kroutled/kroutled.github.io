@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-experience',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
+  @Input() iqView: boolean;
+  @Input() telView: boolean;
+  @Input() feView: boolean;
+  @Input() tel2View: boolean;
 
   constructor() { }
 

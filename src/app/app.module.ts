@@ -10,6 +10,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { SkillsComponent } from './components/skills/skills.component';
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,10 +26,13 @@ import { SkillsComponent } from './components/skills/skills.component';
   ],
   imports: [
     BrowserModule,
-    AngularFullpageModule //*** added
+    AngularFullpageModule,
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 
 export class AppModule { }

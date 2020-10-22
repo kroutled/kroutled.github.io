@@ -7,3 +7,18 @@
     color: 000;
     font-family: 'Montserrat';font-size: 22px;
   }
+
+  .test {
+    color: 000;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .item {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }

@@ -1,14 +1,16 @@
     <!-- app.component.html -->
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
   <div class="section" (click)="fullpage_api.moveSectionDown()"><app-hero></app-hero></div>
-	<div class="section" (click)="fullpage_api.moveSectionDown()"><app-profile></app-profile></div>
-	<div ng-repeat="project in projects" class="section projects" >
+	<div class="section"><app-profile></app-profile></div>
+	<!-- <div ng-repeat="project in projects" class="section projects" > -->
+	<!-- <div class="section">
 		<h1>My JourneyS</h1>
-		<div class="slide"></div>
-		<!-- <div class="slide">Slide 2.2</div>
-		<div class="slide">Slide 2.3</div> -->
-  </div>
-  <div class="section" (click)="fullpage_api.moveSectionDown()"><app-experience></app-experience></div>
-  <div class="section" (click)="fullpage_api.moveSectionDown()"><app-projects></app-projects></div>
+		<div class="slide"><app-experience [iqView]=true></app-experience></div>
+		<div class="slide"><app-experience [telView]=false></app-experience></div>
+		<div class="slide"><app-experience [feView]=false></app-experience></div>
+	</div> -->
+	<div class="section style"><app-experience></app-experience></div>
+	<div class="section"><app-projects></app-projects></div>
+	<div class="section"><app-skills></app-skills></div>
 	<div class="section"><app-contact></app-contact></div>
 </div>

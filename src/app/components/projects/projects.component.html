@@ -1,12 +1,19 @@
-
-<div class="text">
+<!-- <div class="text">
     <h1>Projects</h1>
     <p>List of projects</p>
-</div>
-
-<div class="projectContainer">
-    <h2 class="projectName">name</h2>
-    <img>
-    <p class="description">description</p>
-    <button href="" class="projectButton"></button>
+</div> -->
+<div>
+    <h1 class="main-header">Projects</h1>
+    <div class="container">
+        <div *ngFor="let project of projects">
+            <a href="{{ project.urlLink }}" target="_blank">
+                <div class="grid-row">
+                    <div class="grid-item">
+                        <h1 class="project-header">{{ project.name }}</h1>
+                        <p class="text">{{ project.discription }}</p>
+                    </div>
+                </div>
+             </a>
+        </div>
+    </div>
 </div>
